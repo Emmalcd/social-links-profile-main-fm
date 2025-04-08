@@ -34,6 +34,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 .card {
   display: flex;
@@ -41,6 +42,7 @@ body {
   align-items: center;
   background-color: var(--grey);
   border-radius: 10px;
+  width: min(90%, 370px);
 }
 img {
   border-radius: 50%;
@@ -53,6 +55,7 @@ a {
   color: var(--white);
   margin: 0;
   text-decoration: none;
+  text-align: center;
 }
 h1 {
   font-weight: 500;
@@ -61,6 +64,7 @@ h1 {
 h2 {
   color: var(--green);
   font-size: small;
+  text-align: center;
 }
 p {
   font-size: 14px;
@@ -70,15 +74,16 @@ p {
 .nav {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .nav a {
   text-decoration: none;
   padding: 10px;
   background-color: var(--lightGrey);
-  margin: 0 35px 15px 35px;
+  margin: 0 auto 15px auto;
   text-align: center;
-  width: 300px;
+  width: min(90%, 300px);
   border-radius: 7px;
   font-weight: 600;
 }
